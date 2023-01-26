@@ -17,47 +17,51 @@
 <body>
 <div id="page">
 	<div class="serchBox">
-		<select name="type">
-			<option value="">種類を選択</option>
-			<option value="mammals">哺乳類</option>
-			<option value="reptiles">爬虫類</option>
-			<option value="birds">鳥類</option>
-			<option value="other">その他</option>
-		</select>
-		<select name="live">
-			<option value="">生活を選択</option>
-			<option value="water">水中</option>
-			<option value="land">陸上</option>
-			<option value="water-and-land">水中と陸上</option>
-			<option value="sky">空</option>
-		</select>
-		<select name="color">
-			<option value="">色を選択</option>
-			<option value="black">黒系</option>
-			<option value="white">白系</option>
-			<option value="green">緑系</option>
-			<option value="brown">茶系</option>
-		</select>
-		<select name="size">
-			<option value="">大きさを選択</option>
-			<option value="small">小さい</option>
-			<option value="middle">中くらい</option>
-			<option value="large">大きい</option>
-		</select>
-		<select name="name">
-			<option value="">名前を選択</option>
-			<option value="dog">イヌ</option>
-			<option value="cat">ネコ</option>
-			<option value="monkey">サル</option>
-			<option value="dolphin">イルカ</option>
-			<option value="jellyfish">クラゲ</option>
-			<option value="penguin">ペンギン</option>
-			<option value="turtle">カメ</option>
-			<option value="redstart">ジョウビタキ</option>
-			<option value="myna">九官鳥</option>
-			<option value="butterfly">蝶</option>
-			<option value="crocodile">ワニ</option>
-		</select>
+		<div class="checkbox">
+			<input type="checkbox" name="type" value="">種類を選択
+			<input type="checkbox" name="type" value="mammals">哺乳類
+			<input type="checkbox" name="type" value="reptiles">爬虫類
+			<input type="checkbox" name="type" value="birds">鳥類
+		</div>
+
+		<div class="checkbox">
+			<input type="checkbox" name="live" value="">生活を選択
+			<input type="checkbox" name="live" value="water">水中
+			<input type="checkbox" name="live" value="land">陸上
+			<input type="checkbox" name="live" value="water-and-land">水中と陸上
+			<input type="checkbox" name="live" value="sky">空
+	   </div>
+
+	   <div class="checkbox">
+			<input type="checkbox" name="color" value="">色を選択
+			<input type="checkbox" name="color" value="black">黒系
+			<input type="checkbox" name="color" value="white">白系
+			<input type="checkbox" name="color" value="green">緑系
+			<input type="checkbox" name="color" value="brown">茶系
+	   </div>
+
+	   <div class="checkbox">
+			<input type="checkbox" name="size" value="">大きさを選択
+			<input type="checkbox" name="size" value="small">小さい
+			<input type="checkbox" name="size" value="middl">中くらい
+			<input type="checkbox" name="size" value="large">大きい
+	    </div>
+
+		<div class="checkbox">
+			<input type="checkbox" name="name" value="">名前を選択
+			<input type="checkbox" name="name" value="dog">イヌ
+			<input type="checkbox" name="name" value="cat">ネコ
+			<input type="checkbox" name="name" value="monkey">サル
+			<input type="checkbox" name="name" value="dolphin">イルカ
+			<input type="checkbox" name="name" value="jellyfish">クラゲ
+			<input type="checkbox" name="name" value="penguin">ペンギン
+			<input type="checkbox" name="name" value="turtle">カメ
+			<input type="checkbox" name="name" value="redstart">ジョウビタキ
+			<input type="checkbox" name="name" value="myna">九官鳥
+			<input type="checkbox" name="name" value="butterfly">蝶
+			<input type="checkbox" name="name" value="crocodile">ワニ
+	   </div>
+
 	</div>
 
 	<ul class="list">

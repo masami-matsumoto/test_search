@@ -1,12 +1,12 @@
 $(function() {
     var lists = $('.list li');
-    $(document).on('change', '.serchBox select', function() {
+    $(document).on('change', '.serchBox .checkbox input[type=checkbox]:checked', function() {
         lists.show();
-        for (var i = 0; i < $('.serchBox select').length; i++) {
+        for (var i = 0; i < $('.serchBox .checkbox input[type=checkbox]:checked').length; i++) {
             // 絞り込みの項目を取得
-            var item = $('.serchBox select').eq(i).attr('name');
+            var item = $('.serchBox .checkbox input[type=checkbox]:checked').eq(i).attr('name');
             // 絞り込みの対象を取得
-            var target = $('.serchBox select').eq(i).val();
+            var target = $('.serchBox .checkbox input[type=checkbox]:checked').eq(i).val();
  
             if(target != '') {
                 for (var j = 0; j < lists.length; j++) {
